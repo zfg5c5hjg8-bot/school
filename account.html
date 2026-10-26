@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>الحساب – مدرسة أم القطين الثانوية للبنين</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="account">
+    <header id="hd"></header>
+    <div class="ph">
+        <div class="w"><em>الحساب</em>
+            <h1>تسجيل الحساب</h1>
+            <p>أنشئ حسابًا أو سجّل الدخول. يُحفظ الحساب على هذا الجهاز فقط.</p>
+        </div>
+    </div>
+    <section>
+        <div class="w">
+            <p id="msg" style="text-align:center;margin-bottom:14px" role="alert"></p>
+            <div id="me" hidden class="form">
+                <div class="card">
+                    <h3 id="hi"></h3>
+                    <p class="mut" style="margin:6px 0 14px">أنت مسجّل الدخول.</p><button class="btn" id="out">تسجيل الخروج</button></div>
+            </div>
+            <div id="in" class="grid g3" style="max-width:900px;margin:auto">
+                <div class="card form" style="margin:0">
+                    <h3>حساب جديد</h3><input id="rn" placeholder="الاسم" aria-label="الاسم"><input id="re" type="email" placeholder="البريد الإلكتروني" aria-label="البريد"><input id="rp" type="password" placeholder="كلمة المرور (6 أحرف على الأقل)" aria-label="كلمة المرور">
+                    <button class="btn" id="reg">إنشاء الحساب</button>
+                </div>
+                <div class="card form" style="margin:0">
+                    <h3>تسجيل الدخول</h3><input id="le" type="email" placeholder="البريد الإلكتروني" aria-label="البريد"><input id="lp" type="password" placeholder="كلمة المرور" aria-label="كلمة المرور"><button class="btn" id="log">دخول</button></div>
+            </div>
+        </div>
+    </section>
+    <footer id="ft"></footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
